@@ -1,0 +1,38 @@
+.log {
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 1rem 4rem;
+  width: 100%;
+}
+
+.info {
+  background-color: blue;
+  composes: log;
+}
+
+.success {
+  background-color: green;
+  composes: log;
+}
+
+.error {
+  background-color: red;
+  composes: log;
+}
+
+.warning {
+  background-color: orange;
+  composes: log;
+}
+
+.isImportant {
+  position: relative;
+}
+
+.isImportant::after {
+  content: "⚠︎";
+  font-size: 40px;
+  position: absolute;
+  top: 3px;
+  left: 1rem;
+}

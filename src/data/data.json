@@ -1,0 +1,8 @@
+{
+  "title": "stats",
+  "stats": [
+    { "id": "id-1", "label": "Terraria", "percentage": 24 },
+    { "id": "id-2", "label": "ESO V: Skyrim", "percentage": 35 },
+    { "id": "id-3", "label": "Warframe", "percentage": 41 }
+  ]
+}

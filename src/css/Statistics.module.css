@@ -1,0 +1,26 @@
+.statistics {
+  background-color: var(--color-gray);
+  margin: 1rem auto;
+  max-width: 300px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.statList {
+  list-style: none;
+}
+
+@media screen and (min-width: 767px) {
+  .statistics {
+    max-width: 510px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .statistics {
+    max-width: 840px;
+  }
+}
